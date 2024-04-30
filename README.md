@@ -25,21 +25,21 @@ is called **MacLaurin polynomial of order k** of a function f.
 
 * It is plain to see that a Taylor polynomial of order k of a function f at xo, is the only polynomial of order not greater than k such that  
 
-[![](https://gakko.pjwstk.edu.pl/materialy/259/lec/an7/Image2849.gif)  
+![](https://gakko.pjwstk.edu.pl/materialy/259/lec/an7/Image2849.gif)  
 
 It means that if f is a polynomial of order n ≤ k then a Taylor polynomial of the function f at x<sub>0</sub> is the function f itself (if n > k then f is not its own Taylor polynomial of order k).  
 
-It appears that for values of x close to x0 a number ![](https://gakko.pjwstk.edu.pl/materialy/259/lec/an7/Image2850.gif) is a good approximation of a number f(x). More accurate estimation of an error R<sub>n<sub>(x) of this approximation is possible owing to the following theorem:
+It appears that for values of x close to x<sub>0</sub> a number ![](https://gakko.pjwstk.edu.pl/materialy/259/lec/an7/Image2850.gif) is a good approximation of a number f(x). More accurate estimation of an error R<sub>n</sub>(x) of this approximation is possible owing to the following theorem:
 
 **Theorem (Taylor's formula with the remainder of the Lagrange's form)**  
 
 If a function f
 
-(1) has the continuous derivative of order n -1 in an interval [x0, x],
+(1) has the continuous derivative of order n -1 in an interval [x<sub>0</sub>, x],
 
-(2) has the derivative of order n in an open interval (x0, x),
+(2) has the derivative of order n in an open interval (x<sub>0</sub>, x),
 
-then there exists a point c ∈ (x0, x) such that
+then there exists a point c ∈ (x<sub>0</sub>, x) such that
 
 ![](https://gakko.pjwstk.edu.pl/materialy/259/lec/an7/Image2851.gif)
 
@@ -51,7 +51,7 @@ The formula (*) is called a** Taylor's formula with the nth remainder of the Lag
 
 ![](https://gakko.pjwstk.edu.pl/materialy/259/lec/an7/Image2854.gif)
 
-the **nth remainder of the Lagrange's form.  **
+the **nth remainder of the Lagrange's form.**  
 
 ### **Remarks**  
 
@@ -154,23 +154,21 @@ for some c lying between 125 and x.
 
 The Taylor polynomial of order 2 of the function f at the point 125 is given by the formula
 
-https://gakko.pjwstk.edu.pl/materialy/259/lec/an7/Image2875.gif
+![](https://gakko.pjwstk.edu.pl/materialy/259/lec/an7/Image2875.gif)
 
 and thus the approximate formula for values of the function f for x close to 125 is given by
 
-https://gakko.pjwstk.edu.pl/materialy/259/lec/an7/Image2876.gif
+![](https://gakko.pjwstk.edu.pl/materialy/259/lec/an7/Image2876.gif)
 
 In particular for x = 124 we obtain:
 
-https://gakko.pjwstk.edu.pl/materialy/259/lec/an7/Image2877.gif
+![](https://gakko.pjwstk.edu.pl/materialy/259/lec/an7/Image2877.gif)
 
 An error of this approximation can be evaluated in the following way:
 
 ![](https://gakko.pjwstk.edu.pl/materialy/259/lec/an7/Image2878.gif)
 
-The last inequality follows from the fact that 124<c<125. Hence 4<1241/3<c1/3 which implies that
-
-c-8/3<4-8.
+The last inequality follows from the fact that 124<c<125. Hence 4<1241/3<c1/3 which implies that c-8/3<4-8.  
 
 *  We will find MacLaurin polynomials of order 3 and 4 as well as Taylor's formula with R5 (x) at the point -1 for the function f (x)=x4-x3+3x2+1.
 
@@ -192,7 +190,7 @@ f (1)=4, f ' (1)=7, f '' (1)=12, f(3)(1)=18, f(4)(1)=24, which gives
 
 since R5(x)=0 (by one of the remarks) (f (5)(x)=0). This means that we represented the function f as a linear combination of powers of the monomial x - 1.
 
-Remark
+### Remark  
 
 Similarly, writing down a Taylor's formula with Rk(x) for any polynomial f of degree n ≤ k, at any point x0, we simply express this polynomial in terms of a linear combination of powers of the monomial x-x0.
 
@@ -202,22 +200,22 @@ We have: f(x) = ex, f ' (x) = ex, f ' ' (x) = ex, ..., f(n-1) (x) = ex, f(n) (x)
 
 f (0) = 1, f ' (0) = 1, f '' (0) = 1, ..., f(n-1) (0) = 1. Thus MacLaurins formula with the nth remainder of the function ex is of the form:
 
-
+![](https://gakko.pjwstk.edu.pl/materialy/259/lec/an7/Image2882.gif)
 
 Let us evaluate an error of the approximation of the number e by the number
 
-: .
+![](https://gakko.pjwstk.edu.pl/materialy/259/lec/an7/Image2883.gif): ![](https://gakko.pjwstk.edu.pl/materialy/259/lec/an7/Image2884.gif).
 
 In particular, for n = 5 the error does not exceed 1/40, whereas for n = 7 it is smaller than or equal to 1/1680.
 
-Remark
+### Remark  
 
 * There are also another formulae describing the nth remainder Rn (x). For instance, if the assumptions of the theorem on Taylor polynomial with the remainder of the Lagrange's form are satisfied, then for every x∈ (a, b), there exists l ∈ (0,1) such that
 
-
+![](https://gakko.pjwstk.edu.pl/materialy/259/lec/an7/Image2885.gif)
 
 The last expression is called an nth reminder of the Cauchy's form. The remainder of the Lagrange's form and the remainder of the Cauchy's form are different formulas denoting one number
 
-
+![](https://gakko.pjwstk.edu.pl/materialy/259/lec/an7/Image2886.gif)
 
 Lagrange's form allows for much simpler (but often much weaker) estimation of an error of an approximation Rn (x) then the Cauchy's form does. According to this, we used here only the Lagrange's form of the remainder.
