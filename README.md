@@ -4,7 +4,7 @@
 
 In this lecture we will introduce the **Taylor's formula** and **the Taylor polynomial** and we will give examples of their application for computation of approximate values of a function. We will also define a **MacLaurin series**, a **Taylor series** and find **MacLaurin's expansion** of some functions. Finally we will describe **Newton's method of approximate solving nonlinear equations**.
 
-# 1. TAYLOR`S FORMULA, MACLAURIN`S FORMULA
+# 1. Taylor's formula, MacLaurin's formula
 
 **Definition**  
 
@@ -15,7 +15,7 @@ is called a **Taylor polynomial** of order k of a function f at a point x0, prov
 
 In the case when x<sub>0</sub> = 0 a polynomial
 
-
+![](https://gakko.pjwstk.edu.pl/materialy/259/lec/an7/Image2848.gif))
 
 is called MacLaurin polynomial of order k of a function f.
 
