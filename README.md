@@ -11,19 +11,19 @@ In this lecture we will introduce the **Taylor's formula** and **the Taylor poly
 A polynomial  
 ![](https://gakko.pjwstk.edu.pl/materialy/259/lec/an7/Image2847.gif)  
 
-is called a **Taylor polynomial** of order k of a function f at a point x0, provided the function f has at x0 the derivative of order k.
+is called a **Taylor polynomial** of order k of a function f at a point x<sub>0</sub>, provided the function f has at x<sub>0</sub> the derivative of order k.
 
 In the case when x<sub>0</sub> = 0 a polynomial
 
-![](https://gakko.pjwstk.edu.pl/materialy/259/lec/an7/Image2848.gif))
+![](https://gakko.pjwstk.edu.pl/materialy/259/lec/an7/Image2848.gif)
 
-is called MacLaurin polynomial of order k of a function f.
+is called **MacLaurin polynomial of order k** of a function f.
 
-Remarks
+Remarks  
 
-• The definition of a Taylor polynomial of order k of a function f at a point xo implies that the degree of this polynomial is at most k, but it can be smaller than k (if f (k)(x0) = 0).
+* The definition of a Taylor polynomial of order k of a function f at a point xo implies that the degree of this polynomial is at most k, but it can be smaller than k (if f (k)(x0) = 0).
 
-• It is plain to see that a Taylor polynomial of order k of a function f at xo, is the only polynomial of order not greater than k such that
+* It is plain to see that a Taylor polynomial of order k of a function f at xo, is the only polynomial of order not greater than k such that
 
 
 
@@ -55,19 +55,19 @@ the nth remainder of the Lagrange's form.
 
 Remarks
 
-• The Taylor's formula remains valid for an interval [x, x0] (then x0 ∈ (x, x0)).
+* The Taylor's formula remains valid for an interval [x, x0] (then x0 ∈ (x, x0)).
 
 In both cases: x0 > x and x0 < x can be described by a single formula
 
 
 
-• For x0=0 the Taylor's formula takes on the form
+* For x0=0 the Taylor's formula takes on the form
 
 
 
 and it is called a MacLaurin's formula with the nth reminder.
 
-• Neglecting the remainder Rn(x) in the Taylor's formula, we obtain an approximation of a function f in a neighbourhood x0 by a polynomial of order (at most) n -1:
+* Neglecting the remainder Rn(x) in the Taylor's formula, we obtain an approximation of a function f in a neighbourhood x0 by a polynomial of order (at most) n -1:
 
 
 
@@ -85,7 +85,7 @@ By estimation of an error of such approximation, we understand a determination o
 
 Examples
 
-• We will write down a MacLaurin's formula with the 4th remainder R4 (x) for the function f (x)=cosx. We will also evaluate an error of the approximation of the function f by a MacLaurin polynomial of order 3 for ⎪x⎪ ≤ 0,3.
+* We will write down a MacLaurin's formula with the 4th remainder R4 (x) for the function f (x)=cosx. We will also evaluate an error of the approximation of the function f by a MacLaurin polynomial of order 3 for ⎪x⎪ ≤ 0,3.
 
 Since f (x)=cosx, f ' (x)=-sinx, f '' (x)=-cosx, f (3)(x)=sinx, f (4)(x)=cosx,
 
@@ -107,7 +107,7 @@ for ⎪ x⎪≤ 0,3. We have
 
 The second last inequality corresponds to the fact that ⎪ cosc⎪≤ 1.
 
-•  We will write down a Taylor's formula with the 4th remainder for the function f (x)=x /(x-3) at the point x0 = -2. We will find an approximated formula for a value of this function, which is obtained after neglecting the remainder R4 (x). We will also evaluate the error we make by application of this formula at the point -1,95 i.e., approximating the number f (-1,95) by T-2 (-1,95), where T-2 (x) is Taylor polynomial of the function f of order 3.
+*  We will write down a Taylor's formula with the 4th remainder for the function f (x)=x /(x-3) at the point x0 = -2. We will find an approximated formula for a value of this function, which is obtained after neglecting the remainder R4 (x). We will also evaluate the error we make by application of this formula at the point -1,95 i.e., approximating the number f (-1,95) by T-2 (-1,95), where T-2 (x) is Taylor polynomial of the function f of order 3.
 
 
 
@@ -139,7 +139,7 @@ An error of this approximation can be evaluated in the following way:
 
 Since for c such that -2 < c < -1,95 we have | c - 3| ∈ (4,95, 5). Thus 4 < | c - 3|, and finally | c - 3| - 5 ≤ 1/45.
 
-•  We will write down a Taylor's formula with the 3rd remainder for the function f (x) = x1/3 at the point x0=125. Then we will apply this formula for an approximation of the number 1241/3. We will also evaluate an error of this approximation.
+*  We will write down a Taylor's formula with the 3rd remainder for the function f (x) = x1/3 at the point x0=125. Then we will apply this formula for an approximation of the number 1241/3. We will also evaluate an error of this approximation.
 
 
 
@@ -171,7 +171,7 @@ The last inequality follows from the fact that 124<c<125. Hence 4<1241/3<c1/3 wh
 
 c-8/3<4-8.
 
-•  We will find MacLaurin polynomials of order 3 and 4 as well as Taylor's formula with R5 (x) at the point -1 for the function f (x)=x4-x3+3x2+1.
+*  We will find MacLaurin polynomials of order 3 and 4 as well as Taylor's formula with R5 (x) at the point -1 for the function f (x)=x4-x3+3x2+1.
 
 We have f ' (x)=4x3-3x2+6x, f '' (x)=12x2-6x+6, f(3)(x)=24x-6, f(4)(x)=24, f(5)(x)=0, hence f (0)=1, f ' (0)=0, f'' (0)=6, f(3)(0)=-6, f(4)(0)=24. The MacLaurin polynomial of order 3 is of the form:
 
@@ -195,7 +195,7 @@ Remark
 
 Similarly, writing down a Taylor's formula with Rk(x) for any polynomial f of degree n ≤ k, at any point x0, we simply express this polynomial in terms of a linear combination of powers of the monomial x-x0.
 
-•  We will write down a MacLaurin's formula with the nth remainder for the function f (x) = ex. We will evaluate an error of the approximation of the number e = f (1) by T0(1), where T0(x) is a Taylor polynomial of order n-1 of the function ex.
+*  We will write down a MacLaurin's formula with the nth remainder for the function f (x) = ex. We will evaluate an error of the approximation of the number e = f (1) by T0(1), where T0(x) is a Taylor polynomial of order n-1 of the function ex.
 
 We have: f(x) = ex, f ' (x) = ex, f ' ' (x) = ex, ..., f(n-1) (x) = ex, f(n) (x) = ex, that is
 
@@ -211,7 +211,7 @@ In particular, for n = 5 the error does not exceed 1/40, whereas for n = 7 it is
 
 Remark
 
-• There are also another formulae describing the nth remainder Rn (x). For instance, if the assumptions of the theorem on Taylor polynomial with the remainder of the Lagrange's form are satisfied, then for every x∈ (a, b), there exists l ∈ (0,1) such that
+* There are also another formulae describing the nth remainder Rn (x). For instance, if the assumptions of the theorem on Taylor polynomial with the remainder of the Lagrange's form are satisfied, then for every x∈ (a, b), there exists l ∈ (0,1) such that
 
 
 
